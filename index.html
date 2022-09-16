@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mini calculator</title>
+  </head>
+  <body>
+    <input id="first" type="number" placeholder="enter 1st number" />
+    <input id="second" type="number" placeholder="enter 2nd number" />
+    <button onclick="add()" id="first_button">add</button>
+    <button onclick="subtract()" id="second_button">subtract</button>
+    <button onclick="multiply()" id="third_button">multiply</button>
+    <button onclick="divide()" id="fourth_button">divide</button>
+  </body>
+</html>
+<script>
+  function add() {
+    let p1 = document.getElementById("first").value;
+
+    let p2 = document.getElementById("second").value;
+    let num1 = Number(p1);
+    let num2 = Number(p2);
+    console.log(alert(num1 + num2));
+  }
+  function subtract() {
+    let p3 = document.getElementById("first").value;
+
+    let p4 = document.getElementById("second").value;
+    let num1 = Number(p3);
+    let num2 = Number(p4);
+    console.log(alert(num1 - num2));
+  }
+  function multiply() {
+    let p3 = document.getElementById("first").value;
+
+    let p4 = document.getElementById("second").value;
+    let num1 = Number(p3);
+    let num2 = Number(p4);
+    console.log(alert(num1 * num2));
+  }
+  function divide() {
+    let p3 = document.getElementById("first").value;
+
+    let p4 = document.getElementById("second").value;
+    let num1 = Number(p3);
+    let num2 = Number(p4);
+    console.log(alert(num1 / num2));
+  }
+</script>
